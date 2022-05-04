@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    
+    <title>Play Game!</title>
+</head>
+<body>
+        <nav>
+            <ul>
+                <li>
+                    <a class="navigation" href="LandingPage.html">Home</a>
+                </li>
+                <li>
+                    <a class="navigation" href="GamePage.html">Play Game</a>
+                </li>
+                <li>
+                    <a class="navigation" href="StatsPage.html">View Stats</a>
+                </li>
+            </ul>
+        </nav>
+        <button id = "playButton"> Play Game! </button>
+        
+        <canvas id = "hangman" width = "400" height = "400"> </canvas>
+        <div id = "Guesses"> </div>
+        <div id = "GuessesTaken"></div>
+        <input id = inputBox placeholder= "Enter your guess"></input>
+        <button id = "confirmButton"> Enter </button>
+        <script src=GPlogic.js></script>
+</body>
+
+</html>
